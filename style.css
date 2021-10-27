@@ -161,6 +161,11 @@ header .nav-link {
     color: #1c1f22;
     font-family: "Arial";
 }
+.footer_social img{
+    background-color: #eeeeee;
+    padding: 10px;
+    height: 40px;
+}
 .header .dropdown-item {
     color: #fff !important;
 }
