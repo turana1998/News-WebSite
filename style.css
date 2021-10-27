@@ -246,10 +246,12 @@ header {
 
 }
 main {
-    background-color: #f5f5f5;
+  
     padding: 20px;
 }
-
+.main{
+    background-color: #f5f5f5;
+}
 .slider_two_content {
     background-color: #fff;
     padding: 5px;
