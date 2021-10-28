@@ -1,0 +1,1042 @@
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>azerbaijan-news</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./caleandar.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+    <style>
+        #sync2 {
+            background-color: #efefef;
+            margin-top: -40px;
+        }
+
+        #sync2 .item {
+            border: 2px solid #00476b;
+            margin: 5px;
+        }
+
+        .owl-theme .owl-nav [class*='owl-'] {
+            transition: all 0.3s ease;
+        }
+
+        .owl-theme .owl-nav [class*='owl-'].disabled:hover {
+            background-color: #d6d6d6;
+        }
+
+        #sync1.owl-theme {
+            position: relative;
+        }
+
+        #sync1.owl-theme .owl-next,
+        #sync1.owl-theme .owl-prev {
+            width: 22px;
+            height: 40px;
+            margin-top: -20px;
+            position: absolute;
+            top: 50%;
+        }
+
+        #sync1.owl-theme .owl-prev {
+            left: 10px;
+        }
+
+        #sync1.owl-theme .owl-next {
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="nav-top">
+            <div class="container">
+                <div class="top_nav">
+                    <div class="date">
+                        <span> 10:06 18 Oktyabr 2021</span>
+                    </div>
+                    <div class="searc d-flex">
+                        <select class="form-select weather" aria-label="Default select example">
+                            <option selected style="background-image: url(./image/sun.png);"> Şəki 17°C</option>
+                            <option value="1" style="background-image: url(./image/sun.png);">One</option>
+                            <option value="2" style="background-image: url(./image/sun.png);">Two</option>
+                            <option value="3" style="background-image: url(./image/sun.png);">Three</option>
+                        </select>
+                        <select class="form-select valyuta" aria-label="Default select example">
+                            <option selected>$ 1.7</option>
+                            <option value="1">$ 1.7</option>
+                            <option value="2">$ 1.7</option>
+                            <option value="3">$ 1.7</option>
+                        </select>
+                        <div class="input-group search_input ">
+                            <input type="search" class="form-control" aria-label="" value="saytdan axtar">
+                            <span class="input-group-text">
+                                <i class="bi bi-search"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-bottom">
+            <div class="container">
+                <div class="header-img">
+                    <div class="row">
+                        <div class="col-3 col-sm-3 col-lg-3 header-img-flash">
+                            <a href="./index.html">
+                                <div id="flag-swf"></div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-6  d-flex align-items-center">
+                            <a href="./index.html">
+                                <img class="w-100" src="https://www.azerbaijan-news.az/uploads/img/logo.png" class="">
+                            </a>
+                        </div>
+                        <div class="col-3 col-sm-3 col-lg-3 d-flex align-items-center justify-content-end">
+                            <div class="d-flex flex-column">
+                                <div class="social d-flex">
+                                    <a class="social-fb" href="#"></a>
+                                    <a class="social-youtube" href="#"></a>
+                                    <a class="social-fb" href="#"></a>
+                                    <a class="social-youtube" href="#"></a>
+                                </div>
+                                <div class="menu-about d-flex justify-content-center">
+                                    <a>Haqqımızda</a>
+                                    <a>Əlaqə</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand navbar-dark pb-0">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="/">ANA SƏHİFƏ </a></li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://www.azerbaijan-news.az/category/parlament-15">PARLAMENT
+                                </a>
+                            </li>
+
+
+
+
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://www.azerbaijan-news.az/category/parlament-15">PARLAMENT
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://www.azerbaijan-news.az/category/iqtisadiyyat-14">İQTİSADİYYAT
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Humanitar
+                                </a>
+                                <div class="dropdown-menu drop_item" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/medeniyyet-13">Mədəniyyət</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/tehsil-12">Təhsil</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/sehiyye-11">Səhiyyə</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/elm-ve-texnika-10">Elm və
+                                        texnika</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/turizm-9">Turizm</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/oxucu-mektublari-8">Oxucu
+                                        məktubları</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/huquq-mesleheti-7">Hüquq
+                                        məsləhəti</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.azerbaijan-news.az/category/dunya-6">DÜNYA </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.azerbaijan-news.az/category/idman-5">İDMAN </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.azerbaijan-news.az/category/cemiyyet-4">CƏMİYYƏT
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://www.azerbaijan-news.az/category/fotoxronaka-3">FOTOXRONIKA
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown others">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Digər
+                                </a>
+                                <div class="dropdown-menu drop_item" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/medeniyyet-13">Mədəniyyət</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/tehsil-12">Təhsil</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/sehiyye-11">Səhiyyə</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/elm-ve-texnika-10">Elm və
+                                        texnika</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/turizm-9">Turizm</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/oxucu-mektublari-8">Oxucu
+                                        məktubları</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.azerbaijan-news.az/category/huquq-mesleheti-7">Hüquq
+                                        məsləhəti</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <main>
+                <section id="main_slider">
+                    <div class="owl-carousel ">
+                        <div class="main_slider_img" data-hash="one">
+                            <img src="./image/13.png">
+                            <a href="">
+                                <h2 class="m-0">Elə güclü Azərbaycan qurdu ki... <span>- FOTOLAR</span>
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="main_slider_img" data-hash="one">
+                            <img src="./image/13.png">
+                            <a href="#">
+                                <h2 class="m-0"><span>- İlham Əliyevin</span>“ASAN” modeli dünyada ən mükəmməl
+                                    nümunələrdəndir
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section id="main_section">
+                    <div class="row">
+                        <div class="col-9">
+
+                            <section id="news">
+                                <section id="details">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="date m-0 ">30 Oktyabr<br>2021</div>
+                                            <div class="time m-0 ">14:30</div>
+                                            <div class="wiew "><i class="far fa-eye"></i> 5436</div>
+                                            <div class="type ">SİYASƏT</div>
+                                            <div class="size d-flex">
+                                                <a href="#"> A-</a>
+                                                <a href="#"> A+</a>
+                                            </div>
+                                            <div class="social">
+                                                <div class="line d-flex">
+                                                    <a href="#">
+                                                        <img src="./image/fb3.png">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img src="./image/twitter3.png">
+                                                    </a>
+                                                </div>
+                                                <div class="line d-flex">
+                                                    <a href="#">
+                                                        <img src="./image/tg3.png">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img src="./image/wp3.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="banner" style="background-image: url(./image/banner-6.png);">
+                                            </div>
+                                        </div>
+                                        <div class="col-10">
+                                            <div id="sync1" class="owl-carousel owl-theme">
+                                                <div class="item">
+                                                    <img src="./image/news-slider.png">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="./image/4.png">
+                                                </div>
+                                            </div>
+
+                                            <div id="sync2" class="owl-carousel owl-theme">
+                                                <div class="item">
+                                                    <img src="./image/news-slider.png">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="./image/4.png">
+                                                </div>
+                                            </div>
+                                            <h2>Prezident Füzuli Hava Limanında yaradılan şəraitlə tanış oldu -
+                                                YENİLƏNİB</h2>
+                                            <p>“Zəfər yolu” ilə Füzulidən Xocavəndə və Şuşaya doğru irəlilədikcə
+                                                çoxsaylı ağır inşaat texnikalarını - ekskavatorlar, kranlar və yük
+                                                maşınlarını müşahidə etdik. Yolboyu demək olar ki, hər yerdə qızğın
+                                                tikinti işləri gedir. Yollar, körpülər, tunellər, su və elektrik
+                                                xətləri, drenaj sistemləri inşa olunur. Bu torpaqları işğaldan azad edən
+                                                dövlətimiz indi ona yeni həyat bəxş edir. Qarabağın mirvarisi olan
+                                                Şuşanın özü isə elə şəhərin girəcəyindən görünür ki, böyük tikinti
+                                                meydanıdır…</p>
+                                            <br>
+                                            <b>Şuşaya Prezidentin 5 səfəri</b>
+                                            <br>
+                                            <p>Şuşa qədim Azərbaycan şəhəridir. Hər küçəsində xalqımıza məxsus
+                                                dəyərlərin, milli mədəniyyətin, milli arxitekturanın izlərini yaşadır.
+                                                Şəhərdəki hər bir ev, möhtəşəm qala divarları, məscidlər, qədd-qamətli
+                                                minarələr keçmişimizdən soraq verir. Şuşa xalqımızın elə bir möhtəşm
+                                                mədəni abidəsidir ki, düşmən onu erməniləşdirə bilmədi. Bu şəhər 28 il
+                                                yarım davam edən işğal dövründə erməniləri qəbul etmədi. Çünki Şuşa
+                                                onlar üçün əvvəldən yad idi, işğal dövründə də yad olaraq qaldı. İlham
+                                                Əliyevin dediyi kimi, Şuşa ayaqdadır, Şuşa sınmayıb, Şuşa əyilməyib!
+                                                Mənfur düşmən nə qədər çalışsa da, Şuşanın simasını dəyişdirə bilməyib.
+
+                                                Ermənistan işğal dövründə nə qədər cəhd etsə də, Şuşanı məskunlaşdıra da
+                                                bilməyib və şəhərdə əsasən hərbçilər yaşayıblar. Erməni diasporunun
+                                                hesabına nə qədər layihələr həyata keçirilsə də, işğalçılar Şuşanı
+                                                turizm məkanına çevirə bilməyiblər. Fransadan və digər ölkələrdən
+                                                nümayəndə heyətləri gəlsə də, hər il müxtəlif idman yarışları keçirilsə
+                                                də, ermənilər Şuşa ilə bağlı hədəflərinə yetişməyiblər. Çünki Şuşa heç
+                                                vaxt yadları qəbul etməyib.</p>
+                                        </div>
+                                    </div>
+
+                                </section>
+                                <h2 id="news_title" class="mt-5">Daha çox</h2>
+                                <section id="siyaset_child">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <a href="#">
+                                                <div class="div_detail">
+                                                    <div class="img"></div>
+                                                    <h2>
+                                                        Birinci vitse-prezident Mehriban Əliyeva Müstəqilliyin Bərpası
+                                                        Günü
+                                                        münasibətilə
+                                                        Azərbaycan xalqını təbrik edib
+                                                    </h2>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="#">
+                                                <div class="div_detail">
+                                                    <div class="img"></div>
+                                                    <h2>
+                                                        Birinci vitse-prezident Mehriban Əliyeva Müstəqilliyin Bərpası
+                                                        Günü
+                                                        münasibətilə
+                                                        Azərbaycan xalqını təbrik edib
+                                                    </h2>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="#">
+                                                <div class="div_detail">
+                                                    <div class="img"></div>
+                                                    <h2>
+                                                        Birinci vitse-prezident Mehriban Əliyeva Müstəqilliyin Bərpası
+                                                        Günü
+                                                        münasibətilə
+                                                        Azərbaycan xalqını təbrik edib
+                                                    </h2>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="#">
+                                                <div class="div_detail">
+                                                    <div class="img"></div>
+                                                    <h2>
+                                                        Birinci vitse-prezident Mehriban Əliyeva Müstəqilliyin Bərpası
+                                                        Günü
+                                                        münasibətilə
+                                                        Azərbaycan xalqını təbrik edib
+                                                    </h2>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </section>
+
+                            </section>
+
+
+
+                        </div>
+                        <div class="col-3">
+                            <div class="d-flex">
+                                <a href="#">
+                                    <div class="news">
+                                        <img src="./image/news.png">
+                                        <h3>PDF kimi oxu</h3>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="news">
+                                        <img src="./image/news.png">
+                                        <h3>Kitab kimi oxu</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="#">
+                                <h4 class="serencam_title text-center">QƏZETİN ÇAP VERSİYASI</h4>
+                            </a>
+                            <section id="banner_third"></section>
+                            <section id="xeber_lenti">
+                                <h4 class="serencam_title d-flex  justify-content-between align-items-center m-0">XƏBƏR
+                                    LENTİ
+                                    <a href="#">Bütün xəbərlər</a>
+                                </h4>
+                                <div class="all_news">
+                                    <a href="#">
+                                        <div class="news_item">
+                                            <p>Prezident İlham Əliyev Türkiyənin əmək və sosial müdafiə nazirini qəbul
+                                                edib
+                                            </p>
+                                            <div class="date">
+                                                <b>12:23</b>
+                                                <br>
+                                                <span>19 Oktyabr</span>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#">
+                                        <div class="news_item">
+                                            <p>Prezident İlham Əliyev Türkiyənin əmək və sosial müdafiə nazirini qəbul
+                                                edib
+                                            </p>
+                                            <div class="date">
+                                                <b>12:23</b>
+                                                <br>
+                                                <span>19 Oktyabr</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="news_item">
+                                            <p>Prezident İlham Əliyev Türkiyənin əmək və sosial müdafiə nazirini qəbul
+                                                edib
+                                            </p>
+                                            <div class="date">
+                                                <b>12:23</b>
+                                                <br>
+                                                <span>19 Oktyabr</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="news_item">
+                                            <p>Prezident İlham Əliyev Türkiyənin əmək və sosial müdafiə nazirini qəbul
+                                                edib
+                                            </p>
+                                            <div class="date">
+                                                <b>12:23</b>
+                                                <br>
+                                                <span>19 Oktyabr</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="news_item">
+                                            <p>Prezident İlham Əliyev Türkiyənin əmək və sosial müdafiə nazirini qəbul
+                                                edib
+                                            </p>
+                                            <div class="date">
+                                                <b>12:23</b>
+                                                <br>
+                                                <span>19 Oktyabr</span>
+                                            </div>
+                                        </div>
+                                    </a> <a href="#">
+                                        <div class="news_item">
+                                            <p>Prezident İlham Əliyev Türkiyənin əmək və sosial müdafiə nazirini qəbul
+                                                edib
+                                            </p>
+                                            <div class="date">
+                                                <b>12:23</b>
+                                                <br>
+                                                <span>19 Oktyabr</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="news_item">
+                                            <p>Prezident İlham Əliyev Türkiyənin əmək və sosial müdafiə nazirini qəbul
+                                                edib
+                                            </p>
+                                            <div class="date">
+                                                <b>12:23</b>
+                                                <br>
+                                                <span>19 Oktyabr</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="news_item">
+                                            <p>Prezident İlham Əliyev Türkiyənin əmək və sosial müdafiə nazirini qəbul
+                                                edib
+                                            </p>
+                                            <div class="date">
+                                                <b>12:23</b>
+                                                <br>
+                                                <span>19 Oktyabr</span>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+                            </section>
+                            <section id="diqqet_cekenler">
+                                <a href="#">
+                                    <h4 class="diqqet_title">DİQQƏT ÇƏKƏNLƏR</h4>
+                                </a>
+                                <div class="diqqet_divs">
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </section>
+                            <section id="banner_four">
+                                <div class="badge">FOTOXRONİKA</div>
+                                <p class="badge_text">Zəfər qoxulu payızım...</p>
+                            </section>
+                            <section id="diqqet_cekenler">
+                                <h4 class="diqqet_title">Çox oxunanlar
+                                </h4>
+                                <div class="diqqet_divs">
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Sahil Babayev:
+                                                "Azərbaycanda
+                                                distant, virtual işə
+                                                ehtiyac kəskin artıb"</p>
+                                            <img src="./image/10.png">
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </section>
+                            <section id="diqqet_cekenler">
+                                <a href="#">
+                                    <h4 class="diqqet_title m-0">OXUCU MƏKTUBLARI
+                                    </h4>
+                                </a>
+                                <div class="banner">
+                                    <p class="m-0 p-0">Məktublar: <br>
+                                        problemlər, rəylər, təkliflər...
+                                    </p>
+                                </div>
+                                <div class="diqqet_divs">
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Digahlıların arzusu həyata
+                                                keçir</p>
+                                            <img src="./image/11.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Digahlıların arzusu həyata
+                                                keçir</p>
+                                            <img src="./image/11.png">
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="diqqet_item d-flex justify-content-between">
+                                            <p>Digahlıların arzusu həyata
+                                                keçir</p>
+                                            <img src="./image/11.png">
+                                        </div>
+                                    </a>
+
+
+                                </div>
+                            </section>
+                            <section id="nesrlerimiz">
+                                <h2>NƏŞRLƏRİMİZ</h2>
+                                <div class="owl-carousel">
+                                    <a href="#">
+                                        <div class="slider_img" style="background-image: url(./image/12.png);">
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </section>
+                            <section id="main_redaktor">
+                                <h2>BAŞ REDAKTORDAN</h2>
+                                <p>Hamımızın Azərbaycan adlı bir Vətəni var! Qoynunda dünyaya göz açdığımız, minbir
+                                    nemətindən
+                                    dadıb isti qucağında boya-başa çatdığımız bu əvəzolunmaz diyar azərbaycanlı adını
+                                    qürur
+                                    və
+                                    iftixarla daşıyan hər kəs üçün müqəddəs və ülvidir.
+                                    Müzəffər Ali Baş Komandan İlham Əliyevin rəhbərliyi ilə Azərbaycan Ordusu Vətən
+                                    müharibəsində zəfər çalaraq erməni işğalçılarını kapitulyasiyaya məcbur etdi,
+                                    düşməni
+                                    qovaraq ərazi bütövlüyünə nail oldu.
+                                    Bununla da Azərbaycan yeni inkişaf dövrünə qədəm qoydu.
+                                    Bu dövrdə dünyada mürəkkəb və ziddiyyətli proseslər davam etməkdədir!
+                                    Hələ də dünyada ədalətsizliklər mövcuddur!
+                                    Hələ də dünyada ikili standartlar var!
+                                    Hələ də dünyada güclülər zəiflərin haqqını tapdalamaq istəyir!
+                                    Odur ki, biz daima güclü olmalıyıq.
+                                    Güclü olmağın əsas şərti isə bizim birliyimizdir!
+                                    Dünyanın harasında yaşamağımızdan, hansı sahədə çalışmağımızdan asılı olmayaraq,
+                                    əlbir
+                                    və
+                                    əlaqəli fəaliyyət göstərməyi bacarmalıyıq.
+                                    Azərbaycan naminə, onun dünyada yeri, yüksək nüfuzu uğrunda daim birlikdə mübarizə
+                                    aparmalıyıq.
+                                    Yalnız bu halda anamız Azərbaycanı qoruya, yüksəldə və hamımız üçün qürur mənbəyinə
+                                    çevirə
+                                    bilərik.
+                                    Ulu yurdumuzun adını daşıyan "Azərbaycan" qəzeti də bu amala xidmət edir.
+                                    Əziz azərbaycanlılar! Sizi Azərbaycan naminə, övladlarımızın firavan və xoşbəxt
+                                    gələcəyi
+                                    uğrunda əlbir və əlaqəli fəaliyyətə çağırıram!</p>
+                            </section>
+                            <section id="teqvim">
+                                <h2>TƏQVİM / ARXİV</h2>
+                                <div id="caleandar"></div>
+                            </section>
+                        </div>
+                    </div>
+
+                </section>
+            </main>
+            <section id="video">
+                <div class="video_title">
+                    <img src="./image/mp4.png"> Video
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="#">
+                            <div class="video_item" style="background-image: url(./image/9.png);">
+                                <div class="text">Zəngilanda radio və televiziya yayımı təmin olunub</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="#">
+                            <div class="video_item" style="background-image: url(./image/9.png);">
+                                <div class="text">Zəngilanda radio və televiziya yayımı təmin olunub</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="#">
+                            <div class="video_item" style="background-image: url(./image/9.png);">
+                                <div class="text">Zəngilanda radio və televiziya yayımı təmin olunub</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="slider_footer" class="slider_footer">
+            <div class="container">
+                <div class="owl-carousel">
+                    <a href="#">
+                        <div class="slider_footer_img">
+                            <img src="./image/2.png">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="slider_footer_img">
+                            <img src="./image/2.png">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="slider_footer_img">
+                            <img src="./image/2.png">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="slider_footer_img">
+                            <img src="./image/2.png">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="slider_footer_img">
+                            <img src="./image/2.png">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="slider_footer_img">
+                            <img src="./image/2.png">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="slider_footer_img">
+                            <img src="./image/2.png">
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="slider_footer_img">
+                            <img src="./image/2.png">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="footer_nav">
+            <nav class="navbar navbar-expand navbar-dark pb-0">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="/">ANA SƏHİFƏ </a></li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/parlament-15">PARLAMENT
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/parlament-15">PARLAMENT
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/parlament-15">PARLAMENT
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/siyaset-1">SİYASƏT </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://www.azerbaijan-news.az/category/iqtisadiyyat-14">İQTİSADİYYAT
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/idman-5">İDMAN </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/idman-5">İDMAN </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/cemiyyet-4">CƏMİYYƏT </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/idman-5">İDMAN </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/idman-5">İDMAN </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/cemiyyet-4">CƏMİYYƏT </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/fotoxronaka-3">FOTOXRONIKA
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/elanlar-2">ELANLAR </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-4">
+                    <div class="text-one">
+                        2000-2021 (c) Bütün hüquqları qorunur, AZƏRBAYCAN QƏZETİ, Mobil Versiya
+                        <br><br>
+                        Sayt Mozilla Firefox, Google Chrome, Opera və Internet Explorer ver. 7.x ilə tam dəstəklənir.
+                        Məlumatdan istifadə etdikdə istinad mütlıqdir
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="text-one text-center">
+                        <b>Azərbaycan Respublikası, Bakı ş., Mətbuat pr. 529-cu məhəllə, 4-cü mərtəbə</b>
+                        <p><b>Tel.:</b>(+994 12) 539 49 20, 538-31-11; Faks: (+994 12) 539 43 23<br>
+                            <b>E-mail.:</b> contact@azerbaijan-news.az;
+                            secretary@azerbaijan-news.az, reklam@azerbaijan-news.az
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <div class="footer_social text-center">
+                        <a href="#"><img src="./image/fb1.png" alt=""></a>
+                        <a href="#"><img src="./image/insta1.png" alt=""></a>
+                        <a href="#"><img src="./image/twiiter1.png" alt=""></a>
+                        <a href="#"><img src="./image/youtube1.png" alt=""></a>
+                        <a href="#"><img src="./image/internet.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./caleandar.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            var sync1 = $("#sync1");
+            var sync2 = $("#sync2");
+            var slidesPerPage = 4; //globaly define number of elements per page
+            var syncedSecondary = true;
+
+            sync1.owlCarousel({
+                items: 1,
+                slideSpeed: 2000,
+                nav: true,
+                autoplay: false,
+                dots: true,
+                loop: true,
+                responsiveRefreshRate: 200,
+                navText: ['<svg width="100%" height="100%" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>', '<svg width="100%" height="100%" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
+            }).on('changed.owl.carousel', syncPosition);
+
+            sync2
+                .on('initialized.owl.carousel', function () {
+                    sync2.find(".owl-item").eq(0).addClass("current");
+                })
+                .owlCarousel({
+                    items: slidesPerPage,
+                    dots: true,
+                    nav: true,
+                    smartSpeed: 200,
+                    slideSpeed: 500,
+                    slideBy: slidesPerPage, //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
+                    responsiveRefreshRate: 100
+                }).on('changed.owl.carousel', syncPosition2);
+
+            function syncPosition(el) {
+                //if you set loop to false, you have to restore this next line
+                //var current = el.item.index;
+
+                //if you disable loop you have to comment this block
+                var count = el.item.count - 1;
+                var current = Math.round(el.item.index - (el.item.count / 2) - .5);
+
+                if (current < 0) {
+                    current = count;
+                }
+                if (current > count) {
+                    current = 0;
+                }
+
+                //end block
+
+                sync2
+                    .find(".owl-item")
+                    .removeClass("current")
+                    .eq(current)
+                    .addClass("current");
+                var onscreen = sync2.find('.owl-item.active').length - 1;
+                var start = sync2.find('.owl-item.active').first().index();
+                var end = sync2.find('.owl-item.active').last().index();
+
+                if (current > end) {
+                    sync2.data('owl.carousel').to(current, 100, true);
+                }
+                if (current < start) {
+                    sync2.data('owl.carousel').to(current - onscreen, 100, true);
+                }
+            }
+
+            function syncPosition2(el) {
+                if (syncedSecondary) {
+                    var number = el.item.index;
+                    sync1.data('owl.carousel').to(number, 100, true);
+                }
+            }
+
+            sync2.on("click", ".owl-item", function (e) {
+                e.preventDefault();
+                var number = $(this).index();
+                sync1.data('owl.carousel').to(number, 300, true);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.slider_two .owl-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                nav: true,
+                margin: 10
+            });
+            $('.slider_footer .owl-carousel').owlCarousel({
+                items: 7,
+                loop: true,
+                nav: false,
+                margin: 10
+            });
+            $('#slider_fifth .owl-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                nav: false,
+                margin: 10
+            });
+            $('#nesrlerimiz .owl-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                nav: true,
+                margin: 10
+            });
+            $('#main_slider .owl-carousel').owlCarousel({
+                items: 5,
+                loop: true,
+                nav: true,
+                margin: 10,
+                navText: ['<span aria-label="Previous">‹</span>', '<span aria-label="Next">›</span>']
+            });
+
+        });
+    </script>
+</body>
+
+</html>
