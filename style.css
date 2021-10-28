@@ -468,6 +468,16 @@ main {
     background-color: #ffff;
     height: 250px;
 }
+#news_child .img{
+    background-image: url(./image/6.png);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#news_child .div_detail{
+    background-color: #ffff;
+    padding: 10px;
+}
 #siyaset_child .div_detail h2{
     font-size: 14px;
     color: #000000;
@@ -653,11 +663,16 @@ main {
     display: inline-block;
     content: "";
     border-top: .4rem solid #e3000f;
-    width: 70%;
+    width: 60%;
     margin-left: 3rem;
     transform: translateY(-0.3rem);
 }
-
+.news_col_title{
+font-size: 14px !important;
+color: #000000;
+font-weight: bold;
+font-family: "Arial";
+}
 #news_title::before {
     display: inline-block;
     content: "";
