@@ -9,68 +9,16 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link href="./style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="./caleandar.css">
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css"
-        rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css"
-        rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
-    <style>
-        #sync2 {
-            background-color: #efefef;
-            margin-top: -40px;
-        }
-        #sync2 .item img{
-            height: 70px;
-            width: 100px;
-            object-fit: cover;
-        }
-        #sync2 .item {
-            border: 2px solid #00476b;
-            margin: 10px;
-            width: 104px;
-            
-        }
-        #sync2 .owl-nav ,#sync2 .owl-dots{
-            display: none !important;
-        }
-        #sync1 .owl-dots{
-            display: none !important;
-        }
-        #sync2 .owl-item {
-            width: 110px !important;
-        }
-        .owl-theme .owl-nav [class*='owl-'] {
-            transition: all 0.3s ease;
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <style type="text/css">
+        .slick-slide {
+            margin: 0px 5px;
+            height: auto !important;
         }
 
-        .owl-theme .owl-nav [class*='owl-'].disabled:hover {
-            background-color: #d6d6d6;
-        }
-
-        #sync1.owl-theme {
-            position: relative;
-        }
-
-        #sync1.owl-theme .owl-next,
-        #sync1.owl-theme .owl-prev {
-            width: 22px;
-            height: 40px;
-            margin-top: -20px;
-            position: absolute;
-            top: 50%;
-        }
-
-        #sync1.owl-theme .owl-prev {
-            left: 10px;
-        }
-
-        #sync1.owl-theme .owl-next {
-            right: 10px;
+        .slick-slide img {
+            width: 100%;
         }
     </style>
 </head>
@@ -153,8 +101,7 @@
 
 
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="https://www.azerbaijan-news.az/category/parlament-15">PARLAMENT
+                                <a class="nav-link" href="./news.html">PARLAMENT
                                 </a>
                             </li>
 
@@ -162,13 +109,11 @@
 
 
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="https://www.azerbaijan-news.az/category/parlament-15">PARLAMENT
+                                <a class="nav-link" href="./news-detail.html">PARLAMENT
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="https://www.azerbaijan-news.az/category/iqtisadiyyat-14">İQTİSADİYYAT
+                                <a class="nav-link" href="iqtisadiyyat-14">İQTİSADİYYAT
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
@@ -177,39 +122,31 @@
                                     Humanitar
                                 </a>
                                 <div class="dropdown-menu drop_item" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/medeniyyet-13">Mədəniyyət</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/tehsil-12">Təhsil</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/sehiyye-11">Səhiyyə</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/elm-ve-texnika-10">Elm və
+                                    <a class="dropdown-item" href="medeniyyet-13">Mədəniyyət</a>
+                                    <a class="dropdown-item" href="tehsil-12">Təhsil</a>
+                                    <a class="dropdown-item" href="sehiyye-11">Səhiyyə</a>
+                                    <a class="dropdown-item" href="elm-ve-texnika-10">Elm və
                                         texnika</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/turizm-9">Turizm</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/oxucu-mektublari-8">Oxucu
+                                    <a class="dropdown-item" href="turizm-9">Turizm</a>
+                                    <a class="dropdown-item" href="oxucu-mektublari-8">Oxucu
                                         məktubları</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/huquq-mesleheti-7">Hüquq
+                                    <a class="dropdown-item" href="huquq-mesleheti-7">Hüquq
                                         məsləhəti</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.azerbaijan-news.az/category/dunya-6">DÜNYA </a>
+                                <a class="nav-link" href="dunya-6">DÜNYA </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.azerbaijan-news.az/category/idman-5">İDMAN </a>
+                                <a class="nav-link" href="idman-5">İDMAN </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.azerbaijan-news.az/category/cemiyyet-4">CƏMİYYƏT
+                                <a class="nav-link" href="cemiyyet-4">CƏMİYYƏT
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="https://www.azerbaijan-news.az/category/fotoxronaka-3">FOTOXRONIKA
+                                <a class="nav-link" href="fotoxronaka-3">FOTOXRONIKA
                                 </a>
                             </li>
                             <li class="nav-item dropdown others">
@@ -218,22 +155,15 @@
                                     Digər
                                 </a>
                                 <div class="dropdown-menu drop_item" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/medeniyyet-13">Mədəniyyət</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/tehsil-12">Təhsil</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/sehiyye-11">Səhiyyə</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/elm-ve-texnika-10">Elm və
+                                    <a class="dropdown-item" href="medeniyyet-13">Mədəniyyət</a>
+                                    <a class="dropdown-item" href="tehsil-12">Təhsil</a>
+                                    <a class="dropdown-item" href="sehiyye-11">Səhiyyə</a>
+                                    <a class="dropdown-item" href="elm-ve-texnika-10">Elm və
                                         texnika</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/turizm-9">Turizm</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/oxucu-mektublari-8">Oxucu
+                                    <a class="dropdown-item" href="turizm-9">Turizm</a>
+                                    <a class="dropdown-item" href="oxucu-mektublari-8">Oxucu
                                         məktubları</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.azerbaijan-news.az/category/huquq-mesleheti-7">Hüquq
+                                    <a class="dropdown-item" href="huquq-mesleheti-7">Hüquq
                                         məsləhəti</a>
                                 </div>
                             </li>
@@ -245,15 +175,56 @@
 
     </header>
 
+
     <div class="main">
         <div class="container">
             <main>
                 <section id="main_slider">
-                    <div class="owl-carousel ">
+                    <div class="regular">
                         <div class="main_slider_img" data-hash="one">
                             <img src="./image/13.png">
                             <a href="">
                                 <h2 class="m-0">Elə güclü Azərbaycan qurdu ki... <span>- FOTOLAR</span>
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="main_slider_img" data-hash="one">
+                            <img src="./image/13.png">
+                            <a href="#">
+                                <h2 class="m-0"><span>- İlham Əliyevin</span>“ASAN” modeli dünyada ən mükəmməl
+                                    nümunələrdəndir
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="main_slider_img" data-hash="one">
+                            <img src="./image/13.png">
+                            <a href="#">
+                                <h2 class="m-0"><span>- İlham Əliyevin</span>“ASAN” modeli dünyada ən mükəmməl
+                                    nümunələrdəndir
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="main_slider_img" data-hash="one">
+                            <img src="./image/13.png">
+                            <a href="#">
+                                <h2 class="m-0"><span>- İlham Əliyevin</span>“ASAN” modeli dünyada ən mükəmməl
+                                    nümunələrdəndir
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="main_slider_img" data-hash="one">
+                            <img src="./image/13.png">
+                            <a href="#">
+                                <h2 class="m-0"><span>- İlham Əliyevin</span>“ASAN” modeli dünyada ən mükəmməl
+                                    nümunələrdəndir
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="main_slider_img" data-hash="one">
+                            <img src="./image/13.png">
+                            <a href="#">
+                                <h2 class="m-0"><span>- İlham Əliyevin</span>“ASAN” modeli dünyada ən mükəmməl
+                                    nümunələrdəndir
                                 </h2>
                             </a>
                         </div>
@@ -304,73 +275,61 @@
                                             <div class="banner" style="background-image: url(./image/banner-6.png);">
                                             </div>
                                         </div>
-                                        <div class="col-10">
-                                            <div id="sync1" class="owl-carousel owl-theme">
+                                        <div class="col-10" id="slider-detail">
+                                            <div class="slider-for">
                                                 <div class="item">
                                                     <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
-                                                </div>
-                                                <div class="item">
-                                                    <img src="./image/4.png">
-                                                </div>
-
-                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                             </div>
 
-                                            <div id="sync2" class="owl-carousel owl-theme">
+                                            <div class="slider-nav">
                                                 <div class="item">
                                                     <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="./image/4.png">
+                                                    <img src="./image/news-slider.png">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="./image/news-slider.png">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="./image/news-slider.png">
                                                 </div>
 
-                                                <div class="item">
-                                                    <img src="./image/4.png">
-                                                </div>
-                                                <div class="item">
-                                                    <img src="./image/4.png">
-                                                </div>
-                                                <div class="item">
-                                                    <img src="./image/4.png">
-                                                </div>
-                                                <div class="item">
-                                                    <img src="./image/4.png">
-                                                </div>
+
                                             </div>
                                             <h2>Prezident Füzuli Hava Limanında yaradılan şəraitlə tanış oldu -
                                                 YENİLƏNİB</h2>
@@ -752,7 +711,17 @@
                             </section>
                             <section id="nesrlerimiz">
                                 <h2>NƏŞRLƏRİMİZ</h2>
-                                <div class="owl-carousel">
+                                <div class="regular">
+                                    <a href="#">
+                                        <div class="slider_img" style="background-image: url(./image/12.png);">
+
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="slider_img" style="background-image: url(./image/12.png);">
+
+                                        </div>
+                                    </a>
                                     <a href="#">
                                         <div class="slider_img" style="background-image: url(./image/12.png);">
 
@@ -833,7 +802,7 @@
         </div>
         <section id="slider_footer" class="slider_footer">
             <div class="container">
-                <div class="owl-carousel">
+                <div class="regular">
                     <a href="#">
                         <div class="slider_footer_img">
                             <img src="./image/2.png">
@@ -890,50 +859,49 @@
 
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/parlament-15">PARLAMENT
+                            <a class="nav-link" href="parlament-15">PARLAMENT
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/parlament-15">PARLAMENT
+                            <a class="nav-link" href="parlament-15">PARLAMENT
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/parlament-15">PARLAMENT
+                            <a class="nav-link" href="parlament-15">PARLAMENT
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/siyaset-1">SİYASƏT </a>
+                            <a class="nav-link" href="siyaset-1">SİYASƏT </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"
-                                href="https://www.azerbaijan-news.az/category/iqtisadiyyat-14">İQTİSADİYYAT
+                            <a class="nav-link" href="iqtisadiyyat-14">İQTİSADİYYAT
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/idman-5">İDMAN </a>
+                            <a class="nav-link" href="idman-5">İDMAN </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/idman-5">İDMAN </a>
+                            <a class="nav-link" href="idman-5">İDMAN </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/cemiyyet-4">CƏMİYYƏT </a>
+                            <a class="nav-link" href="cemiyyet-4">CƏMİYYƏT </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/idman-5">İDMAN </a>
+                            <a class="nav-link" href="idman-5">İDMAN </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/idman-5">İDMAN </a>
+                            <a class="nav-link" href="idman-5">İDMAN </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/cemiyyet-4">CƏMİYYƏT </a>
+                            <a class="nav-link" href="cemiyyet-4">CƏMİYYƏT </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/fotoxronaka-3">FOTOXRONIKA
+                            <a class="nav-link" href="fotoxronaka-3">FOTOXRONIKA
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.azerbaijan-news.az/category/elanlar-2">ELANLAR </a>
+                            <a class="nav-link" href="elanlar-2">ELANLAR </a>
                         </li>
                     </ul>
                 </div>
@@ -981,122 +949,55 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./caleandar.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script>
         $(document).ready(function () {
-
-            var sync1 = $("#sync1");
-            var sync2 = $("#sync2");
-            var slidesPerPage = 4; //globaly define number of elements per page
-            var syncedSecondary = true;
-
-            sync1.owlCarousel({
-                items: 1,
-                slideSpeed: 2000,
-                nav: true,
-                autoplay: false,
+            $("#main_slider .regular").slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 5,
+                prevArrow: '<button class="prev"><i class="bi bi-chevron-left"></i></button>',
+                nextArrow: '<button class="next"><i class="bi bi-chevron-right"></i></button>'
+            });
+            $(".slider_two_content .regular").slick({
                 dots: true,
-                loop: true,
-                responsiveRefreshRate: 200,
-                navText: ['<svg width="100%" height="100%" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>', '<svg width="100%" height="100%" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
-            }).on('changed.owl.carousel', syncPosition);
-
-            sync2
-                .on('initialized.owl.carousel', function () {
-                    sync2.find(".owl-item").eq(0).addClass("current");
-                })
-                .owlCarousel({
-                    items: slidesPerPage,
-                    dots: true,
-                    nav: true,
-                    smartSpeed: 200,
-                    slideSpeed: 500,
-                    slideBy: slidesPerPage, //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
-                    responsiveRefreshRate: 100
-                }).on('changed.owl.carousel', syncPosition2);
-
-            function syncPosition(el) {
-                //if you set loop to false, you have to restore this next line
-                //var current = el.item.index;
-
-                //if you disable loop you have to comment this block
-                var count = el.item.count - 1;
-                var current = Math.round(el.item.index - (el.item.count / 2) - .5);
-
-                if (current < 0) {
-                    current = count;
-                }
-                if (current > count) {
-                    current = 0;
-                }
-
-                //end block
-
-                sync2
-                    .find(".owl-item")
-                    .removeClass("current")
-                    .eq(current)
-                    .addClass("current");
-                var onscreen = sync2.find('.owl-item.active').length - 1;
-                var start = sync2.find('.owl-item.active').first().index();
-                var end = sync2.find('.owl-item.active').last().index();
-
-                if (current > end) {
-                    sync2.data('owl.carousel').to(current, 100, true);
-                }
-                if (current < start) {
-                    sync2.data('owl.carousel').to(current - onscreen, 100, true);
-                }
-            }
-
-            function syncPosition2(el) {
-                if (syncedSecondary) {
-                    var number = el.item.index;
-                    sync1.data('owl.carousel').to(number, 100, true);
-                }
-            }
-
-            sync2.on("click", ".owl-item", function (e) {
-                e.preventDefault();
-                var number = $(this).index();
-                sync1.data('owl.carousel').to(number, 300, true);
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '<button class="prev"><i class="bi bi-chevron-left"></i></button>',
+                nextArrow: '<button class="next"><i class="bi bi-chevron-right"></i></button>'
             });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.slider_two .owl-carousel').owlCarousel({
-                items: 1,
-                loop: true,
-                nav: true,
-                margin: 10
+            $(".slider_footer .regular").slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 7,
+                slidesToScroll: 7,
+                arrows: false
             });
-            $('.slider_footer .owl-carousel').owlCarousel({
-                items: 7,
-                loop: true,
-                nav: false,
-                margin: 10
+            $("#nesrlerimiz .regular").slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '<button class="prev"><i class="bi bi-chevron-left"></i></button>',
+                nextArrow: '<button class="next"><i class="bi bi-chevron-right"></i></button>'
             });
-            $('#slider_fifth .owl-carousel').owlCarousel({
-                items: 1,
-                loop: true,
-                nav: false,
-                margin: 10
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '<button class="prev"><i class="bi bi-chevron-left"></i></button>',
+                nextArrow: '<button class="next"><i class="bi bi-chevron-right"></i></button>',
+                asNavFor: '.slider-nav'
             });
-            $('#nesrlerimiz .owl-carousel').owlCarousel({
-                items: 1,
-                loop: true,
-                nav: true,
-                margin: 10
-            });
-            $('#main_slider .owl-carousel').owlCarousel({
-                items: 5,
-                loop: true,
-                nav: true,
-                margin: 10,
-                navText: ['<span aria-label="Previous">‹</span>', '<span aria-label="Next">›</span>']
+            $('.slider-nav').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                centerMode: true,
+                focusOnSelect: true
             });
 
         });
