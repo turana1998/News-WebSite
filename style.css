@@ -451,7 +451,7 @@ header .navbar-nav .nav-item:hover {
 
 }
 
-header .navbar-nav .nav-item .nav-link:hover {
+header .navbar-nav .nav-item:hover > .nav-link {
     color: #fff !important;
 
 }
